@@ -150,6 +150,10 @@ return [
          */
         Barryvdh\Debugbar\ServiceProvider::class,
 
+        /*
+         * Laravel Excel
+         */
+        Maatwebsite\Excel\ExcelServiceProvider::class,
     ],
 
     /*
@@ -202,6 +206,8 @@ return [
          * Laravel Debug bar
          */
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
+
+        'Excel' => 'Maatwebsite\Excel\Facades\Excel',
 
     ],
 
