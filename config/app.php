@@ -202,6 +202,7 @@ return [
          * Laravel Debug bar
          */
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
+
     ],
 
 ];
