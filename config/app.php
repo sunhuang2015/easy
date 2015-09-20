@@ -145,6 +145,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         * Laravel Debug bar
+         */
+        Barryvdh\Debugbar\ServiceProvider::class,
+
     ],
 
     /*
@@ -193,7 +198,10 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
-
+        /*
+         * Laravel Debug bar
+         */
+        'Debugbar' => Barryvdh\Debugbar\Facade::class,
     ],
 
 ];
