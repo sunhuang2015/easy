@@ -1,0 +1,14 @@
+Index: app/Http/routes.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>GBK
+===================================================================
+--- app/Http/routes.php	(revision 88b55d284a43579ce755274a1aa9c04f155b1a6d)
++++ app/Http/routes.php	(revision c2b9b1688465e50054cc3a00a502ec4d0f7723a8)
+@@ -16,3 +16,6 @@
+ });
+ 
+ 
++
++
++
